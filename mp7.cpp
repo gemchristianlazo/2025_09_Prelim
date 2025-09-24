@@ -22,7 +22,7 @@ public:
     Node *p,*t;
     p = head;
     while (p!=NULL){
-       Node *t = p;
+        t = p;
         p = p->next;
         delete(t);
      }
@@ -185,3 +185,4 @@ ifstream inFile("students.txt");
     inFile.close();
     cout << "Records retrieved successfully.\n";
 }
+
